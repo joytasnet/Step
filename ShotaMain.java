@@ -1,4 +1,4 @@
-import java. util.*;
+import java.util.*;
 public class ShotaMain{
 	public static void main(String[] args){
 		System.out.println("なんだん>>");
