@@ -9,5 +9,12 @@ public class SasakiStep{
 			}
 			System.out.println();
 		}
+		System.out.println("//逆");
+		for(int i=0;i<num;i++){
+			for(int j=num;j>i;j--){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 	}
 }
