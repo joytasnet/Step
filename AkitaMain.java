@@ -13,11 +13,17 @@ public class AkitaMain{
 		System.out.println("//逆");
 		System.out.println();
 		for(int i = 0;i<n;i++){
-			for(int j = 0;j<i;j++){
-				System.out.print(" ");
+			for(int j = 0;j<n;j++){
+				System.out.print(j<i?" ":"*");
 			}
-			for(int j = 0;j<n-i;j++){
-				System.out.print("*");
+			System.out.println();
+		}
+		System.out.println();
+		System.out.println("//X");
+		System.out.println();
+		for(int i = 1;i<=3;i++){
+			for(int j = 1;j<=3;j++){
+				System.out.print((i+j)%2==0?"x":" ");
 			}
 			System.out.println();
 		}
