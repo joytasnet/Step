@@ -11,8 +11,15 @@ public class SasakiStep{
 		}
 		System.out.println("//逆");
 		for(int i=0;i<num;i++){
-			for(int j=num;j>i;j--){
-				System.out.print("*");
+			for(int j=0;j<num;j++){
+					System.out.print(j<i?" ":"*");
+			}
+			System.out.println();
+		}
+		//X
+		for(int i=0;i<3;i++){
+			for(int j=0;j<3;j++){
+				System.out.print((j-i)%2==0?"X":" ");
 			}
 			System.out.println();
 		}
